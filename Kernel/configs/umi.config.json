@@ -1,7 +1,7 @@
 [
     {
       "kernelSource": {
-        "name": "Xiaomi10(Proton)",
+        "name": "Xiaomi10",
         "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
         "branch": "umi-q-oss",
         "device": "umi",
