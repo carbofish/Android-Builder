@@ -1,7 +1,7 @@
 [
     {
       "kernelSource": {
-        "name": "Xiaomi10",
+        "name": "Xiaomi10(Proton)",
         "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
         "branch": "umi-q-oss",
         "device": "umi",
@@ -34,7 +34,8 @@
           "STRIP": "proton-clang/bin/llvm-strip",
           "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
           "LLVM_AR": "proton-clang/bin/llvm-ar",
-          "LLVM_DIS": "proton-clang/bin/llvm-dis"
+          "LLVM_DIS": "proton-clang/bin/llvm-dis",
+          "-Wno-gnu-variable-sized-type-not-at-end": "true"
         }
       },
       "AnyKernel3": {
